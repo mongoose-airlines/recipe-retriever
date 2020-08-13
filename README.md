@@ -341,6 +341,7 @@ touch views/recipes/show.ejs
     <%= recipe.ingredients.map(i => i).join(', ') %>
     <div class="details-bold">Recipe Link:</div>
     <div><%= recipe.recipeUrl %></div>
+    <a href="/recipes">Back to Recipes</a>
 </body>
 </html>
 ```
@@ -412,6 +413,7 @@ function deleteRecipe(req, res) {
     <form action="/recipes/<%= recipe._id %>/edit">
         <button type="submit" class="btn btn-warning">Edit</button>
     </form>
+    <a href="/recipes">Back to Recipes</a>
 </body>
 ```
 ### <br>

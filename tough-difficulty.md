@@ -189,6 +189,7 @@ table td {
     <%= recipe.ingredients.map(i => i).join(', ') %>
     <div class="details-bold">Recipe Link:</div>
     <div><%= recipe.recipeUrl %></div>
+    <a href="/recipes">Back to Recipes</a>
 </body>
 </html>
 ```
