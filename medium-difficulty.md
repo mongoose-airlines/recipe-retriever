@@ -1,3 +1,5 @@
+# Medium Difficulty
+# 
 # Step-By-Step Instructions (with some code):
 ## <br>
 ### Step 1:  Navigate to the parent directory where you want to create your app.  Use the express generator to create your app's skeleton:
